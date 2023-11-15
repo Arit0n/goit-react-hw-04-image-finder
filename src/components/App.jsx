@@ -56,12 +56,3 @@ export const App = () => {
     </AppBox>
   );
 };
-// return (
-//   <AppBox>
-//     <Searchbar onSubmitFilter={onSubmitForm} />
-//     <ImageGallery gallery={image} />
-//     {loading && <Loader />}
-//     {total / 12 > page && <Button clickLoad={clickLoad} />}
-//     <GlobalStyle />
-//   </AppBox>
-// );
